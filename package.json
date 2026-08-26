@@ -1,0 +1,19 @@
+{
+  "name": "mini-server",
+  "version": "1.0.0",
+  "description": "This is a mini server",
+  "license": "ISC",
+  "author": "Olajosh80",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4"
+  }
+}
